@@ -1,0 +1,12 @@
+
+body{
+    background-color: black;
+
+}
+.background {
+    background-image: url("../images/bckgrnd.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-bottom: 50% solid black;
+
+}
