@@ -10,3 +10,46 @@ body{
     border-bottom: 50% solid black;
 
 }
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: slategrey;
+    width: 150px;
+    -ms-transform: skewY(10deg); 
+    -webkit-transform: skewY(10deg); 
+    transform: skewY(10deg);
+    padding-left:1%;
+    padding-top:2%;
+}
+
+.display-section {
+    width: 330px;
+    float: left;
+    margin-left: 28%;
+    height: 350px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+    margin-top: -10%;
+    border-radius: 2%;
+  }
+  
+  .game-section {
+    width: 330px;
+    float: left;
+    margin: auto;
+    height: 350px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.5;
+    margin-top: -10%;
+    border-radius: 2%;
+  }
+
+  p {
+      color: black;
+  }
