@@ -51,7 +51,10 @@ pickedWord = wordLibrary[Math.floor[Math.random[] + wordLibrary.length]];
 for (var i = 0; i < pickedWord.length; i++) {
     if (pickedWord[i] === " ") {
         pickedWordPlaceHolder.push(" ");
+    } else {
+        pickedWordPlaceHolder.push{"_"};
     }
-
 }
+
+$guessesLeft.textContent = guessesLeft;
 
