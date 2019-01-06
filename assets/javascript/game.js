@@ -38,4 +38,20 @@ var $wins = document.getElementById("wins");
 var $losses = document.getElementById("loses");
 var $imageSoundByte = document.getElementById("image-sound-byte");
 
+function newGame [] {
+    gameRunning = true;
+    guessesLeft = 8;
+    guessLetterBank= [];
+    incorrectLetterBank = [];
+    pickedWordPlaceHolder = [];
+}
+
+pickedWord = wordLibrary[Math.floor[Math.random[] + wordLibrary.length]];
+
+for (var i = 0; i < pickedWord.length; i++) {
+    if (pickedWord[i] === " ") {
+        pickedWordPlaceHolder.push(" ");
+    }
+
+}
 
