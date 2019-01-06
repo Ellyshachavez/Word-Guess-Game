@@ -17,19 +17,25 @@
 
 
 
-var newGame; //user guess
-var letters = []; //correctly guessed letters
-var wrongLetters = []; //incorrectly guessed letters
-var counter = 10; 
+var gameRunning = false;
 var losses = 0;
 var wins = 0;
-var imageSoundByte;
+var guessesLeft = 8;
+var pickedWord = "";
+var pickedWordPlaceHolder = [];
+var guessLetterBank= [];
+var incorrectLetterBank= [];
+var imageSoundByteLibrary = [];
 
-var wordLibrary = ["sublime","Weezer","foo fighters","green day","scar tissue","everclear","zombie","inside out"];
+var wordLibrary = ["sublime","Weezer","foo fighters","green day","scar tissue",
+    "everclear","zombie","inside out"];
 
-var $newGame = document.getElementById("");
-var $placeHolders = document.getElementById("");
-var $guessedLetters = document.getElementById("");
-var $guessesLeft = document.getElementById("");
-var $wins = document.getElementById("");
-var $losses = document.getElementById("");
+var $newGame = document.getElementById("new-game");
+var $placeHolders = document.getElementById("placeholders");
+var $guessedLetters = document.getElementById("guessed-letters");
+var $guessesLeft = document.getElementById("gusses-left");
+var $wins = document.getElementById("wins");
+var $losses = document.getElementById("loses");
+var $imageSoundByte = document.getElementById("image-sound-byte");
+
+
