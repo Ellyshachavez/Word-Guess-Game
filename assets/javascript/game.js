@@ -62,7 +62,7 @@ function checkWin () {
 
 //Check if score is lossing 
 function checkLoss () {
-    
+
 }
 
 document.onkeydown = function (event) {
@@ -85,5 +85,18 @@ document.onkeydown = function (event) {
     }
   }
 
+// Link to Green Day <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A6ORqU0bHbVCRjXm9AjyHyZ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
+// Link to Everclear <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A37EJtTS7jT5WUyXGZzrwnI" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
+// Link to Foo Fighters <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A7u5dBtASrtOuBTTZjJrvuJ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+// Link to Eve 6 <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A7u5dBtASrtOuBTTZjJrvuJ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+// Link to RHCP <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A2QOMGq8wVTZbLmh7McrvgF" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+// Link to Weezer <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A6FxbwB6o1MKOy0dHvxNr2W" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+// Link to Sublime <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A3B4q6KbHbGV51HO3GznBFF" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+// Link to the cranberries <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A0vrZoFXahwpthoKGWI4L96" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
